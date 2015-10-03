@@ -1,0 +1,39 @@
+RANKING PLAYERS FOR A WEEK
+
+1. Position talent score - this is the player's talent at playing the position. Rank in the position, not
+an overall ADP.  ADP by position.
+player may have excellent raw athletic ability, but not great talent for the position.
+2. Player injury score
+3. Opposing defense matchup score against player's position
+4. Opposing defense cornerback matchup score against wide receiver
+5. Team contribution score - this is how much the team (surrounding players) helps the player. e.g. Tom Brady helps the other players on the team, and if he is absent from the lineup, then the 
+players' performance will likely decline.
+6. Opportunity/touches - The teams bias towards rushing and passing.  the number of rushes and targets the player will get.
+7. Opportunity/game flow - A team that is expected to play from behind will be biased towards
+passing and away from the running game.
+8. The vegas over/under - figures into the play calling bias calculation
+9. Vegas line - figures into the play calling bias calculation.
+
+
+
+Scoring system
+1. Rate player's position talent = 1-1000.  Normalize fantasy points scored previous year to 1000 
+	point scale.
+	compare with re-draft league expected ADP.  hand rate players with talent=0.
+2. Injury score is value between 0 and 1.  1 = player is not hampered by injury.  0 = player is out.
+3. Defense matchup score is value between 0 and 2.
+	0 = defense will nullify all  of player's positive performance scores. defense will
+		shutdown the player
+	1 = defense has a neutral effect on the player's  performance
+	2 = defense will offer no opposition to the player
+	Expect these scores to range between 0.5 and 1.5
+4. Cornerback score between 0 and 2.  Recognize the effect shutdown corners have.
+5. Team score is value between 0 and 2.
+	0 = team will negate players positive performance scores
+	1 = team has a neutral effect on the player's performance
+	2 = team will spur the player to great heights
+
+** Calculate Player  Rank = talent * injury * touches 
+
+Calculate talent = 100 - overall ADP score from espn
+
